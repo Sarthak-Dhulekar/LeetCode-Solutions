@@ -5,4 +5,4 @@ LEFT JOIN
 Orders AS o
     ON 
     c.id = o.customerID
-WHERE customerID IS NULL;
+WHERE o.customerID IS NULL;
